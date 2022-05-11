@@ -58,6 +58,11 @@ function App() {
             </div>
             <div className="weather">{weather.weather[0].main}</div>
           </div>
+          <br/>
+          <br/>
+          <div>
+            <h1 className='mysearch'>!!!!!!!!!!!Thanks For Searching!!!!!!!!!!</h1>
+          </div>
         </div>
         ) : ('')}
       </main>
@@ -66,3 +71,4 @@ function App() {
 }
 
 export default App;
+
